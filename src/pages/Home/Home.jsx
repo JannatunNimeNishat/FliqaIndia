@@ -1,5 +1,6 @@
 import Associate from "../Associate/Associate";
 import Banner from "../Banner/Banner";
+import GraphicDesign from "../GraphicDesign/graphicDesign";
 import Search from "../Search/Search";
 import Services from "../Services/Services";
 
@@ -11,6 +12,7 @@ const Home = () => {
             <Search></Search> 
             <Associate></Associate>   
             <Services></Services>
+            <GraphicDesign></GraphicDesign>
         </div>
     );
 };
