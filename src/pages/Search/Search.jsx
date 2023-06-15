@@ -51,7 +51,7 @@ const Search = () => {
                     </div>
                 </div>
             </div>
-            <hr  className=' text-black h-[3px] bg-black w-[1150px] mx-auto mt-7'/>
+            <hr  className=' text-black h-[2px] bg-black w-[1150px] mx-auto mt-7'/>
         </div>
     );
 };
