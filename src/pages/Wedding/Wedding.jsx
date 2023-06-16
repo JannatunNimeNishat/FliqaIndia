@@ -16,7 +16,7 @@ const Wedding = () => {
             </div>
             <div className=" mt-3 flex gap-5 px-20">
 
-                <div className="  bg-[#DDF8F3] px-2 py-3">
+                <div className="  bg-[#DDF8F3] px-2 py-3 shadow-black shadow-lg">
                     <img src={w1} alt="" />
                     <div className='flex overflow-hidden'>
                         <img src={w1_1} alt="" />
@@ -28,7 +28,7 @@ const Wedding = () => {
                         <p className='text-[#4C696D]'>38 photos. Kittery,Polland</p>
                     </div>
                 </div>
-                <div className=" bg-[#FBDADA] px-2 py-3">
+                <div className=" bg-[#FBDADA] px-2 py-3 shadow-black shadow-lg">
                     <img src={w2} alt="" />
                     <div className='flex  overflow-hidden'>
                         <img src={w1_1} alt="" />
@@ -40,7 +40,7 @@ const Wedding = () => {
                         <p className='text-[#4C696D]'>38 photos. Kittery,Polland</p>
                     </div>
                 </div>
-                <div className=" bg-[#FFF9D9] px-2 py-3">
+                <div className=" bg-[#FFF9D9] px-2 py-3 shadow-black shadow-lg">
                     <img src={w3} alt="" />
                     <div className='flex  overflow-hidden'>
                         <img src={w1_1} alt="" />
@@ -52,7 +52,7 @@ const Wedding = () => {
                         <p className='text-[#4C696D]'>38 photos. Kittery,Polland</p>
                     </div>
                 </div>
-                <div className=" bg-[#DDE4FF] px-2 py-3">
+                <div className=" bg-[#DDE4FF] px-2 py-3 shadow-black shadow-lg">
                     <img src={w4} alt="" />
                     <div className='flex  overflow-hidden'>
                         <img src={w1_1} alt="" />
@@ -67,8 +67,8 @@ const Wedding = () => {
 
 
             </div>
-            <div className='text-center'>
-                <button className='bg-[#DDF9FF] px-5 font-extrabold  rounded-xl mt-5 border  py-5 shadow-black shadow-sm '>View more wedding
+            <div className='text-center mt-5'>
+                <button className='bg-[#DDF9FF] px-5 font-extrabold  rounded-xl mt-5 border  py-4 shadow-black shadow-sm '>View more wedding
                     <AiOutlineArrowRight className='ml-3  inline' />
                 </button>
             </div>
