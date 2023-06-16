@@ -2,6 +2,7 @@ import Associate from "../Associate/Associate";
 import Awards from "../Awards/Awards";
 import Banner from "../Banner/Banner";
 import Blogs from "../Blogs/Blogs";
+import Course from "../Course/Course";
 import GraphicDesign from "../GraphicDesign/graphicDesign";
 import Offers from "../Offers/Offers";
 import Search from "../Search/Search";
@@ -25,6 +26,7 @@ const Home = () => {
             <Testimonials></Testimonials>
             <Awards></Awards>
             <Success></Success>
+            <Course></Course>
         </div>
     );
 };
