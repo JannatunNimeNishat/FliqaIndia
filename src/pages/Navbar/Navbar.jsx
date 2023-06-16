@@ -27,7 +27,7 @@ const Navbar = () => {
                     </ul>
                 </div>
 
-                <img className="w-[196px] h-[94px]" src={logo} alt="" />
+                <img className="  lg:w-[196px] lg:h-[94px]" src={logo} alt="" />
 
                 <div className="navbar-center   hidden lg:flex  w-full ">
                     <ul className="menu menu-horizontal  px-1">
@@ -36,7 +36,8 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="navbar-end">
-                <a className="btn">Button</a>
+                <a className=" bg-[#115b6b] px-2 lg:px-5 py-2 rounded-3xl text-white">Sign Up</a>
+                <a className=" bg-[#115b6b]  px-2 lg:px-5 py-2 rounded-3xl text-white lg:ml-3 lg:mr-3">Sign In</a>
             </div>
         </div>
     );

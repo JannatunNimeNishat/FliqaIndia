@@ -14,12 +14,12 @@ const Wedding = () => {
                 <h3 className='text-[#4C696D] text-2xl font-bold'>Real Wedding</h3>
                 <p><small>List your wedding and browse portfolio</small></p>
             </div>
-            <div className=" mt-3 flex gap-5 px-20">
+            <div className=" mt-3 lg:flex gap-5 px-20">
 
                 <div className="  bg-[#DDF8F3] px-2 py-3 shadow-black shadow-lg">
                     <img src={w1} alt="" />
                     <div className='flex overflow-hidden'>
-                        <img src={w1_1} alt="" />
+                        <img  src={w1_1} alt="" />
                         <img src={w1_2} alt="" />
                         <img src={w1_2} alt="" />
                     </div>
@@ -28,7 +28,7 @@ const Wedding = () => {
                         <p className='text-[#4C696D]'>38 photos. Kittery,Polland</p>
                     </div>
                 </div>
-                <div className=" bg-[#FBDADA] px-2 py-3 shadow-black shadow-lg">
+                <div className=" mt-3 lg:mt-0  bg-[#FBDADA] px-2 py-3 shadow-black shadow-lg">
                     <img src={w2} alt="" />
                     <div className='flex  overflow-hidden'>
                         <img src={w1_1} alt="" />
@@ -40,7 +40,7 @@ const Wedding = () => {
                         <p className='text-[#4C696D]'>38 photos. Kittery,Polland</p>
                     </div>
                 </div>
-                <div className=" bg-[#FFF9D9] px-2 py-3 shadow-black shadow-lg">
+                <div className=" mt-3 lg:mt-0  bg-[#FFF9D9] px-2 py-3 shadow-black shadow-lg">
                     <img src={w3} alt="" />
                     <div className='flex  overflow-hidden'>
                         <img src={w1_1} alt="" />
@@ -52,7 +52,7 @@ const Wedding = () => {
                         <p className='text-[#4C696D]'>38 photos. Kittery,Polland</p>
                     </div>
                 </div>
-                <div className=" bg-[#DDE4FF] px-2 py-3 shadow-black shadow-lg">
+                <div className=" mt-3 lg:mt-0  bg-[#DDE4FF] px-2 py-3 shadow-black shadow-lg">
                     <img src={w4} alt="" />
                     <div className='flex  overflow-hidden'>
                         <img src={w1_1} alt="" />

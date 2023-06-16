@@ -15,7 +15,7 @@ const Offers = () => {
                     <p><small>Discover the best offers on our services</small></p>
                 </div>
 
-                <div className='mt-5 flex justify-between px-16 bg-[#a1d1d115]'>
+                <div className='mt-5 lg:flex justify-between px-16 bg-[#a1d1d115]'>
                     
                         <img src={o1} alt="" />
                     

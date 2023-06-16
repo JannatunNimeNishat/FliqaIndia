@@ -6,11 +6,11 @@ import s4 from '../../assets/success/s4.png'
 import s5 from '../../assets/success/s5.png'
 const Success = () => {
     return (
-        <div className="h-[459px] bg-[#ACCBC7] mt-10  ">
+        <div className="lg:h-[459px] bg-[#ACCBC7] mt-10  ">
             <h3 className='text-[#4C696D] text-2xl font-bold text-center pt-5'>Our Success</h3>
             <p className='text-center'><small>Journey of our success.</small></p>
 
-            <div className='flex gap-5 mt-10 px-16'>
+            <div className='lg:flex gap-5 mt-10 px-16'>
 
                 <div className=' text-center'>
                     <div className='mx-auto flex items-center justify-center w-[203px] h-[203px] bg-white rounded-full'>

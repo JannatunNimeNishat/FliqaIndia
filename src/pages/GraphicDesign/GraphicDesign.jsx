@@ -15,9 +15,9 @@ import l4 from '../../assets/graphicDesign/L4.png'
 const GraphicDesign = () => {
     return (
         <>
-        <div className='h-[402px] mt-20  bg-cover bg-center text-white' style={{ backgroundImage: `url("${bg}")` }}>
-            <div className='grid grid-cols-8'>
-                <div className='col-span-4   h-[402px] flex  px-2 py-8 items-center'>
+        <div className='lg:h-[402px] mt-20  bg-cover bg-center text-white' style={{ backgroundImage: `url("${bg}")` }}>
+            <div className='grid grid-cols-1 lg:grid-cols-8'>
+                <div className='lg:col-span-4   lg:h-[402px] flex  px-2 py-8 items-center'>
                     <div>
                         <h3 className='text-4xl  capitalize'>DISCOVER <br />
                             <span className='font-bold'>
@@ -27,34 +27,35 @@ const GraphicDesign = () => {
                         <p className='text-3xl mt-3 capitalize'>FROM BANDING TO MARKETING
                         </p>
                         <div className=' mt-8 w-full '>
-                            <input className='  px-16 py-2 rounded-3xl shadow-white shadow-sm' type="text" name="" id="" placeholder='what kind of design you are looking for?' />
+                            <input className=' px-5  lg:px-16 py-2 rounded-3xl shadow-white shadow-sm' type="text" name="" id="" placeholder='what kind of design you are looking for?' />
                             <button className='bg-[#221010] px-8 py-2 rounded-3xl -ml-12 shadow-white shadow-sm'>Search</button>
                             <img className='-mt-8 ml-2' src={search} alt="" />
                            
                         </div>
                     </div>
                 </div>
-                <div className='col-span-4  flex gap-8 -ml-36 overflow-hidden'>
+                <div className='lg:col-span-4 px-10 lg:px-0  lg:flex  lg:gap-8 lg:-ml-36 lg:overflow-hidden'>
 
                     <div>
-                        <img className='mt-20 relative   border-[10px] border-[#211A13] w-[203px] h-[233px]' src={g1} alt="" />
+                        <img className='lg:mt-20 relative   border-[10px] border-[#211A13] lg:w-[203px] lg:h-[233px]' src={g1} alt="" />
                         <img className='absolute -mt-[223px] ml-12' src={h1} alt="" />
-                        <img className='-mt-[335px] ml-20' src={l1} alt="" />
+                        <img className='lg:-mt-[335px] ml-20' src={l1} alt="" />
+                    </div>
+
+                    <div>
+                        <img className='lg:mt-10 relative   border-[10px] border-[#211A13] lg:w-[203px] lg:h-[233px]' src={g2} alt="" />
+                        <img className='absolute -mt-[223px] ml-12' src={h1} alt="" />
+                        <img className='lg:-mt-[280px] ml-20' src={l2} alt="" />
                     </div>
                     <div>
-                        <img className='mt-10 relative   border-[10px] border-[#211A13] w-[203px] h-[233px]' src={g2} alt="" />
+                        <img className='lg:mt-20 relative   border-[10px] border-[#211A13] lg:w-[203px] lg:h-[233px]' src={g3} alt="" />
                         <img className='absolute -mt-[223px] ml-12' src={h1} alt="" />
-                        <img className='-mt-[280px] ml-20' src={l2} alt="" />
+                        <img className='lg:-mt-[335px] ml-20' src={l3} alt="" />
                     </div>
                     <div>
-                        <img className='mt-20 relative   border-[10px] border-[#211A13] w-[203px] h-[233px]' src={g3} alt="" />
+                        <img className='lg:mt-14 relative   border-[10px] border-[#211A13] lg:w-[203px] lg:h-[233px]' src={g4} alt="" />
                         <img className='absolute -mt-[223px] ml-12' src={h1} alt="" />
-                        <img className='-mt-[335px] ml-20' src={l3} alt="" />
-                    </div>
-                    <div>
-                        <img className='mt-14 relative   border-[10px] border-[#211A13] w-[203px] h-[233px]' src={g4} alt="" />
-                        <img className='absolute -mt-[223px] ml-12' src={h1} alt="" />
-                        <img className='-mt-[325px] ml-20' src={l4} alt="" />
+                        <img className='lg:-mt-[325px] ml-20' src={l4} alt="" />
                     </div>
 
                     

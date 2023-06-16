@@ -13,10 +13,10 @@ const Services = () => {
                 <p><small>Discover the range of services provided by FliqaIndia</small></p>
             </div>
 
-            <div className='flex items-center px-3  gap-3'>
-                <AiOutlineLeft className=' bg-[#DDF8F3] h-10 w-10 p-2 rounded-full' />
+            <div className='lg:flex items-center px-3  gap-3'>
+                <AiOutlineLeft className=' hidden lg:flex  bg-[#DDF8F3] h-10 w-10 p-2 rounded-full' />
 
-                <div className='w-[328px] h-[432px] rounded-lg shadow-2xl text-center flex flex-col'>
+                <div className='lg:w-[328px]  lg:h-[432px] rounded-lg shadow-2xl text-center flex flex-col'>
                     <img src={s1} alt="" />
                     <div className='text-center space-y-1'>
                         <h3 className='font-bold text-xl'>Pre Wedding Photoshoot</h3>
@@ -28,7 +28,7 @@ const Services = () => {
                     </div>
                 </div>
 
-                <div className='w-[328px] h-[432px] rounded-lg shadow-2xl text-center flex flex-col'>
+                <div className='lg:w-[328px] lg:h-[432px] mt-5 lg:mt-0 rounded-lg shadow-2xl text-center flex flex-col'>
                     <img src={s2} alt="" />
                     <div className='text-center space-y-1'>
                         <h3 className='font-bold text-xl'>Wedding Photoshoot</h3>
@@ -39,7 +39,7 @@ const Services = () => {
                         <button className='w-[202px] h-[28px] bg-[#4E99A4] rounded-2xl  text-white'>Know more</button>
                     </div>
                 </div>
-                <div className='w-[328px] h-[432px] rounded-lg shadow-2xl text-center flex flex-col'>
+                <div className='lg:w-[328px] mt-5 lg:mt-0 lg:h-[432px] rounded-lg shadow-2xl text-center flex flex-col'>
                     <img src={s3} alt="" />
                     <div className='text-center space-y-1'>
                         <h3 className='font-bold text-xl'>Portfolio Shoot</h3>
@@ -50,7 +50,7 @@ const Services = () => {
                         <button className='w-[202px] h-[28px] bg-[#4E99A4] rounded-2xl  text-white'>Know more</button>
                     </div>
                 </div>
-                <div className='w-[328px] h-[432px] rounded-lg shadow-2xl text-center flex flex-col'>
+                <div className='lg:lg:w-[328px] mt-5 lg:mt-0 lg:lg:h-[432px] rounded-lg shadow-2xl text-center flex flex-col'>
                     <img src={s4} alt="" />
                     <div className='text-center space-y-1'>
                         <h3 className='font-bold text-xl'>Birthday Baby Folio</h3>
@@ -64,7 +64,7 @@ const Services = () => {
 
 
 
-                <AiOutlineRight className=' bg-[#DDF8F3] h-10 w-10 p-2 rounded-full' />
+                <AiOutlineRight className=' hidden lg:flex bg-[#DDF8F3] h-10 w-10 p-2 rounded-full' />
 
             </div>
 

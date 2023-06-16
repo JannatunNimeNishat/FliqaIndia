@@ -6,17 +6,17 @@ import b3 from '../../assets/blogs/b3.png'
 
 const Blogs = () => {
     return (
-        <div className='h-[470px] mt-20  bg-cover bg-center ' style={{ backgroundImage: `url("${bg}")` }}>
+        <div className='lg:h-[470px] mt-20  bg-cover bg-center ' style={{ backgroundImage: `url("${bg}")` }}>
             <div className='px-10 pt-10'>
                 <h3 className='text-[#4C696D] text-2xl font-bold'>Our Blogs</h3>
                 <p><small>Check out our Latest Blog</small></p>
             </div>
 
-            <div className='flex gap-8 px-16 pt-3 '>
+            <div className='lg:flex gap-8 px-16 pt-3 '>
 
-                <div className=' mt-3 w-[450px] h-[307px] rounded-2xl shadow-black shadow-lg' style={{ backgroundImage: `url("${b1}")` }}>
+                <div className=' mt-3 lg:w-[450px] lg:h-[307px] rounded-2xl shadow-black shadow-lg' style={{ backgroundImage: `url("${b1}")` }}>
 
-                    <div className=' w-[400px] h-[307px] bg-gradient-to-r from-black to-[rgba(21, 21, 21, 1)]   '>
+                    <div className=' lg:w-[400px] lg:h-[307px] bg-gradient-to-r from-black to-[rgba(21, 21, 21, 1)]   '>
 
 
                         <div className='  text-white  px-3 py-8'>
@@ -28,9 +28,9 @@ const Blogs = () => {
                     </div>
                 </div>
 
-                <div className=' mt-3 w-[450px] h-[307px] rounded-2xl shadow-black shadow-lg' style={{ backgroundImage: `url("${b2}")` }}>
+                <div className=' mt-3 lg:w-[450px] lg:h-[307px] rounded-2xl shadow-black shadow-lg' style={{ backgroundImage: `url("${b2}")` }}>
 
-                    <div className=' w-[400px] h-[307px] bg-gradient-to-r from-black to-[rgba(21, 21, 21, 1)]   '>
+                    <div className=' lg:w-[400px] lg:h-[307px] bg-gradient-to-r from-black to-[rgba(21, 21, 21, 1)]   '>
 
 
                         <div className='  text-white  px-3 py-8'>
