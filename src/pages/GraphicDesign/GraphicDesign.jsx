@@ -14,6 +14,7 @@ import l3 from '../../assets/graphicDesign/L3.png'
 import l4 from '../../assets/graphicDesign/L4.png'
 const GraphicDesign = () => {
     return (
+        <>
         <div className='h-[402px] mt-20  bg-cover bg-center text-white' style={{ backgroundImage: `url("${bg}")` }}>
             <div className='grid grid-cols-8'>
                 <div className='col-span-4   h-[402px] flex  px-2 py-8 items-center'>
@@ -25,9 +26,9 @@ const GraphicDesign = () => {
                         </h3>
                         <p className='text-3xl mt-3 capitalize'>FROM BANDING TO MARKETING
                         </p>
-                        <div className=' mt-8 w-full'>
-                            <input className='  px-16 py-2 rounded-3xl' type="text" name="" id="" placeholder='what kind of design you are looking for?' />
-                            <button className='bg-[#221010] px-8 py-2 rounded-3xl -ml-12'>Search</button>
+                        <div className=' mt-8 w-full '>
+                            <input className='  px-16 py-2 rounded-3xl shadow-white shadow-sm' type="text" name="" id="" placeholder='what kind of design you are looking for?' />
+                            <button className='bg-[#221010] px-8 py-2 rounded-3xl -ml-12 shadow-white shadow-sm'>Search</button>
                             <img className='-mt-8 ml-2' src={search} alt="" />
                            
                         </div>
@@ -59,7 +60,14 @@ const GraphicDesign = () => {
                     
                 </div>
             </div>
+           
         </div>
+        <h3 className="text-3xl text-center font-bold mt-5"><span>Popular: </span><span className='ml-3 text-[#4C696D]'>Website Design Logo Design Brochure Label Design</span></h3>
+       
+        <div className='w-11/12 mx-auto mt-5 h-[2px] bg-[#b7aeae]'>
+
+        </div>
+        </>
     );
 };
 
