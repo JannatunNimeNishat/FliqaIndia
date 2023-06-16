@@ -6,13 +6,13 @@ import b3 from '../../assets/blogs/b3.png'
 
 const Blogs = () => {
     return (
-        <div className='h-[456px] mt-20  bg-cover bg-center ' style={{ backgroundImage: `url("${bg}")` }}>
+        <div className='h-[470px] mt-20  bg-cover bg-center ' style={{ backgroundImage: `url("${bg}")` }}>
             <div className='px-10 pt-10'>
                 <h3 className='text-[#4C696D] text-2xl font-bold'>Our Blogs</h3>
                 <p><small>Check out our Latest Blog</small></p>
             </div>
 
-            <div className='flex gap-8 px-8 pt-3'>
+            <div className='flex gap-8 px-16 pt-3 '>
 
                 <div className=' mt-3 w-[450px] h-[307px] rounded-2xl shadow-black shadow-lg' style={{ backgroundImage: `url("${b1}")` }}>
 
@@ -69,7 +69,7 @@ const Blogs = () => {
 
                         </div>
                         <div className=' mx-auto mt-2 h-[1px] bg-[#b7aeae]'></div>
-                        <div className=' flex items-center mt-4 overflow-hidden gap-3'>
+                        <div className=' flex items-center mt-4 overflow-hidden gap-3 '>
                             <img className='h-[78px] w-[100px] rounded-lg' src={b1} alt="" />
                             <div className='h-[68px]'>
                                 <span className='font-bold'>CWedding Photography at Goa</span>

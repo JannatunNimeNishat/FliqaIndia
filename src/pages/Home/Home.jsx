@@ -4,6 +4,7 @@ import Blogs from "../Blogs/Blogs";
 import GraphicDesign from "../GraphicDesign/graphicDesign";
 import Search from "../Search/Search";
 import Services from "../Services/Services";
+import Wedding from "../Wedding/Wedding";
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
             <Services></Services>
             <GraphicDesign></GraphicDesign>
             <Blogs></Blogs>
+            <Wedding></Wedding>
         </div>
     );
 };
