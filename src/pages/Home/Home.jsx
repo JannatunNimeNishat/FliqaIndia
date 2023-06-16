@@ -6,6 +6,7 @@ import GraphicDesign from "../GraphicDesign/graphicDesign";
 import Offers from "../Offers/Offers";
 import Search from "../Search/Search";
 import Services from "../Services/Services";
+import Success from "../Success/Success";
 import Testimonials from "../Testimonials/Testimonials";
 import Wedding from "../Wedding/Wedding";
 
@@ -23,6 +24,7 @@ const Home = () => {
             <Offers></Offers>
             <Testimonials></Testimonials>
             <Awards></Awards>
+            <Success></Success>
         </div>
     );
 };
